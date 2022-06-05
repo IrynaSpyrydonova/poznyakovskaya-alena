@@ -12,14 +12,14 @@ export const Header = () => {
       }}
     >
       <Image
-        src={"/alena_poznyakovskaya4.webp"}
+        src={"/alena_poznyakovskaya5.webp"}
         alt={"Alena's portret"}
         layout="fill"
         objectFit="cover"
-        objectPosition="65% 35%"
+        objectPosition="65% 36%"
         priority={true}
         placeholder="blur"
-        blurDataURL="/alena_poznyakovskaya3.webp"
+        blurDataURL="/alena_poznyakovskaya5.webp"
 
       />
       <div
