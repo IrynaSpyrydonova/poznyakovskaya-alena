@@ -28,7 +28,8 @@ export const MainSection = () => {
             alt={"Alena's portret"}
             width={450}
             height={562}
-            priority={false}
+            placeholder="blur"
+            priority={true}
           />
         </div>
 

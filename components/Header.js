@@ -17,7 +17,8 @@ export const Header = () => {
         layout="fill"
         objectFit="cover"
         objectPosition="65% 35%"
-        priority
+        priority={true}
+        placeholder="blur"
       />
       <div
         style={{

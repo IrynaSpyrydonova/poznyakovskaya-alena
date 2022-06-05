@@ -11,7 +11,8 @@ export const AboutMe = () => {
             alt={"Alena with daughter"}
             width={450}
             height={562}
-            priority={false}
+            priority={true}
+            placeholder="blur"
           />
         </div>
         <div className="myApproach-content">
@@ -32,7 +33,8 @@ export const AboutMe = () => {
             alt={"Alena with family"}
             width={373}
             height={373}
-            loading="lazy"
+            priority={true}
+            placeholder="blur"
           />
         </div>
       </div>

@@ -68,7 +68,6 @@ export const Footer = () => {
                   alt={alt}
                   width={width}
                   height={height}
-                  loading="lazy"
                 />
               </span>
             </a>
