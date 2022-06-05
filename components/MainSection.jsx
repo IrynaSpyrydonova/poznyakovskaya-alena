@@ -30,6 +30,7 @@ export const MainSection = () => {
             height={562}
             placeholder="blur"
             priority={true}
+            blurDataURL="/alena_portret.webp"
           />
         </div>
 

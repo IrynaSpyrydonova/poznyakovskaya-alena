@@ -1,13 +1,13 @@
 import Head from "next/head";
 
-import { Navigation } from "../components/Navigation";
-import { Header } from "../components/Header";
-import { MainSection } from "../components/MainSection";
+import { Navigation } from "../components/Navigation.jsx";
+import { Header } from "../components/Header.jsx";
+import { MainSection } from "../components/MainSection.jsx";
 import { Quote } from "../components/Quote.jsx";
 
 import { Footer } from "../components/Footer.jsx";
-import { Achievements } from "../components/Achievements";
-import { AboutMe } from "../components/AboutMe";
+import { Achievements } from "../components/Achievements.jsx";
+import { AboutMe } from "../components/AboutMe.jsx";
 
 export default function Home() {
   return (

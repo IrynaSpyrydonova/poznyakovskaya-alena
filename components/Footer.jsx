@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const footerLinks = [
   {
-    link: "",
+    link: "https://www.facebook.com/alena.poznyakovskya/",
     image: "/icon-facebook.svg",
     alt: "Facebook icon",
     width: 10,
@@ -30,7 +30,7 @@ const footerLinks = [
     height: 17,
   },
   {
-    link: "",
+    link: "https://www.instagram.com/alena.poznyakovskaya/",
     image: "/icon-instagram.svg",
     alt: "Instagram icon",
     width: 17,

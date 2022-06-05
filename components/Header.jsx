@@ -19,6 +19,8 @@ export const Header = () => {
         objectPosition="65% 35%"
         priority={true}
         placeholder="blur"
+        blurDataURL="/alena_poznyakovskaya3.webp"
+
       />
       <div
         style={{
@@ -54,7 +56,7 @@ export const Header = () => {
           }}
           onClick={() => {
             return (location.href =
-              "mailto:name@rapidtables.com?subject=The%20subject%20of%20the%20mail");
+              "mailto:olenapozniakovska@gmail.com?subject=Запись на консультацию");
           }}
         >
           Lets talk
