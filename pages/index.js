@@ -20,6 +20,7 @@ export default function Home() {
           name="description"
           content="An extraordinary life starts with self care. Discover three simple actions you can take right now to positively impact your body, mind and life."
         />
+        <link rel="canonical" href="https://alena-poznyakovskaya.vercel.app/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />

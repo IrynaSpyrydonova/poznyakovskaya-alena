@@ -12,7 +12,7 @@ export const Header = () => {
       }}
     >
       <Image
-        src={"/alena_poznyakovskaya3.webp"}
+        src={"/alena_poznyakovskaya4.webp"}
         alt={"Alena's portret"}
         layout="fill"
         objectFit="cover"
@@ -37,29 +37,29 @@ export const Header = () => {
         <h1
           style={{
             lineHeight: "1.308",
-            fontSize: "calc((4.2 - 1) * 1.2vw + 1rem)",
+            fontSize: "calc((3.4 - 1) * 1.2vw + 1rem)",
             fontWeight: 400,
           }}
         >
-          A Safe Space for Meaningful Change
+          Ваше безопасное пространство для значимых изменений жизни
         </h1>
         <p>
-          Therapy for women who feel misunderstood and invalidated in their
-          lives.{" "}
+          Терапия для женщин, которые чувствуют себя непонятыми и несостоявшимися в своей жизни.{" "}
         </p>
         <button
           className="btn"
           style={{
-            backgroundColor: "#ead5cd",
+            backgroundColor: "#f2e2dc",
             color: "black",
             border: "1px solid #ead5cd",
+            maxWidth:"300px"
           }}
           onClick={() => {
             return (location.href =
               "mailto:olenapozniakovska@gmail.com?subject=Запись на консультацию");
           }}
         >
-          Lets talk
+          Записаться на консультацию
         </button>
       </div>
     </div>

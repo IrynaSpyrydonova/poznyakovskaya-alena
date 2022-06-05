@@ -1,6 +1,6 @@
 const achievementsList = [
   {
-    name: "courses",
+    name: "курсы",
     list: [
       "Легкость ораторского мастерства",
       "Власть и сила твоих возможностей",
@@ -10,7 +10,7 @@ const achievementsList = [
     ],
   },
   {
-    name: "trainings",
+    name: "тренинги",
     list: [
       "Как создать крепкую самооценку через любовь к себе",
       "Деньги",
@@ -30,7 +30,7 @@ const achievementsList = [
   },
 
   {
-    name: "marathons",
+    name: "марафоны",
     list: [
       "Красота и молодость 'Влюбись в свою жизнь'",
       "Элегантность в привычку",
@@ -42,7 +42,7 @@ const achievementsList = [
     ],
   },
   {
-    name: "intensives",
+    name: "интенсивы",
     list: [
       "Time to detox",
       "Life is good",
@@ -65,7 +65,7 @@ export const Achievements = () => {
         paddingBottom: "4vw",
       }}
     >
-      <h4 style={{color: "black"}}>Achievements</h4>
+      <h4 style={{color: "black"}}>Мои успехи и достижения</h4>
       <div
         className='achievements-wrapper'
       >

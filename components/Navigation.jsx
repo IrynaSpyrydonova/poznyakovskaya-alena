@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const menuLinks = [
-  { name: "Services", link: "/#mainSection" },
-  { name: "About", link: "/#aboutMe" },
+  { name: "Услуги", link: "/#mainSection" },
+  { name: "Обо мне", link: "/#aboutMe" },
 ];
 
 export const Navigation = () => {
@@ -54,7 +54,7 @@ export const Navigation = () => {
                 "mailto:olenapozniakovska@gmail.com?subject=Запись на консультацию");
             }}
           >
-            Contact
+            связаться
           </button>
         </nav>
       </div>

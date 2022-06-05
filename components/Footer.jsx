@@ -10,20 +10,13 @@ const footerLinks = [
   },
   {
     link: "",
-    image: "/icon-twitter.svg",
-    alt: "Twitter icon",
-    width: 17,
-    height: 17,
-  },
-  {
-    link: "",
     image: "/icon-linkedin.svg",
     alt: "LinkedIn icon",
     width: 17,
     height: 17,
   },
   {
-    link: "",
+    link: "https://youtube.com/c/PoznyakovskayaAlena",
     image: "/icon-youtube.svg",
     alt: "Youtube icon",
     width: 17,

@@ -4,8 +4,7 @@ export const Quote = () => {
       <blockquote>
         <h5 style={{ fontStyle: "italic", display: "inline" }}>
           {" "}
-          My mission is to empower women to love the skin they’re in so that
-          they finally start living a full and extraordinary life.
+           Моя миссия состоит в том, чтобы дать женщинам возможность любить себя, чтобы они могли, наконец, начать жить полной и необыкновенной жизнью.
         </h5>
       </blockquote>
     </div>

@@ -11,12 +11,9 @@ export const MainSection = () => {
           marginBottom: "80px",
         }}
       >
-        <h3>Do you feel like stress has taken over your life? </h3>
+        <h3>Вы чувствуете, что стресс завладел вашей жизнью? </h3>
         <p>
-          Together we will work through the feelings of overwhelm to help you
-          gain insight, cultivate strength, and develop coping skills to provide
-          you with the tools to manage difficult emotions, interpersonal
-          relationships, and life transitions.{" "}
+          Вместе мы будем работать с чувством подавленности, чтобы помочь вам обрести понимание, развить силу и развить навыки совладания, чтобы предоставить вам инструменты для управления сложными эмоциями, межличностными отношениями и жизненными переменами.{" "}
         </p>
       </div>
 
@@ -35,14 +32,9 @@ export const MainSection = () => {
         </div>
 
         <div className="mainSection-content">
-          <h4>Meet Alena Poznyakovskaya</h4>
+          <h4>ЗНАКОМЬТЕСЬ, АЛЕНА ПОЗНЯКОВСКАЯ</h4>
           <p>
-            I’m Alena, The Self Care Coach, specialising in helping women to
-            balance professional success with their personal health and
-            happiness. It starts with embracing your uniqueness, respecting your
-            body and creating a sense of balance so you can thrive. I can help
-            you enjoy the success you’ve strived so hard to achieve without
-            having to sacrifice your soul to find it.
+            Я Алена, коуч по уходу за собой, специализируюсь на том, чтобы помочь женщинам совместить профессиональный успех с личным здоровьем и счастьем. Все начинается с того, что вы принимаете свою уникальность, уважаете свое тело и создаете ощущение баланса, чтобы вы могли процветать. Я могу помочь вам насладиться успехом, к которому вы так стремились, без необходимости жертвовать своей душой, чтобы обрести его.
           </p>
         </div>
       </div>
