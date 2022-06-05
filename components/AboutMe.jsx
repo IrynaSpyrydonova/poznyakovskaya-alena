@@ -11,7 +11,7 @@ export const AboutMe = () => {
             alt={"Alena with daughter"}
             width={450}
             height={562}
-            loading="lazy"
+            priority={false}
           />
         </div>
         <div className="myApproach-content">

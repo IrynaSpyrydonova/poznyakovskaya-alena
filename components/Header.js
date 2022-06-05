@@ -17,7 +17,7 @@ export const Header = () => {
         layout="fill"
         objectFit="cover"
         objectPosition="65% 35%"
-        loading="eager"
+        priority
       />
       <div
         style={{
