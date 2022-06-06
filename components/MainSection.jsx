@@ -53,7 +53,7 @@ export const MainSection = () => {
           <ul className="services-list" style={{margin: 0}}>
           {servicesList.map((list)=>{
             return (
-              <li><p>{list}</p></li>
+              <li key={list}><p>{list}</p></li>
             )
           })}
           </ul>
