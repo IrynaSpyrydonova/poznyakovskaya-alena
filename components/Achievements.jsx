@@ -65,7 +65,7 @@ export const Achievements = () => {
         paddingBottom: "4vw",
       }}
     >
-      <h4 style={{color: "black"}}>Мои успехи и достижения</h4>
+      <h4 style={{color: "black", textAlign:"center", wordWrap:"wrap"}}>Мои успехи и достижения</h4>
       <div
         className='achievements-wrapper'
       >

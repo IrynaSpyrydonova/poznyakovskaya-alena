@@ -12,7 +12,6 @@ export const AboutMe = () => {
             width={450}
             height={562}
             placeholder="blur"
-            blurDataURL="/alena_with_daughter.webp"
           />
         </div>
         <div className="myApproach-content">
@@ -34,7 +33,6 @@ export const AboutMe = () => {
             width={373}
             height={373}
             placeholder="blur"
-            blurDataURL="/alena_with_family.webp"
           />
         </div>
       </div>

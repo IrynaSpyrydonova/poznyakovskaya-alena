@@ -5,21 +5,20 @@ export const Header = () => {
     <div
       style={{
         marginBottom: "30px",
-        height: "80vh",
+        height: "90vh",
         position: "relative",
         paddingRight: "3vw",
         paddingLeft: "3vw",
       }}
     >
       <Image
-        src={"/alena_poznyakovskaya5.webp"}
+        src={"/alena_poznyakovskaya_wide.webp"}
         alt={"Alena's portret"}
         layout="fill"
         objectFit="cover"
-        objectPosition="65% 36%"
+        objectPosition="85%"
         priority={true}
         placeholder="blur"
-        blurDataURL="/alena_poznyakovskaya5.webp"
 
       />
       <div
@@ -41,9 +40,9 @@ export const Header = () => {
             fontWeight: 400,
           }}
         >
-          Ваше безопасное пространство для значимых изменений жизни
+          Перемены в Жизни Начинаются с Тебя
         </h1>
-        <p>
+        <p style={{fontWeight:"bold"}}>
           Терапия для женщин, которые чувствуют себя непонятыми и несостоявшимися в своей жизни.{" "}
         </p>
         <button
