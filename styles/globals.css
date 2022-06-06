@@ -150,9 +150,13 @@ p {
   margin-left:15px;
 }
 
-.services-list li::marker {
-  content: '✓';
+.services-list li {
+  list-style-type: '✓';
   color:#ad7a62;
+}
+
+.services-list li p {
+  color: black;
 }
 
 blockquote {
