@@ -95,14 +95,16 @@ export const Achievements = () => {
                 <ul className="achievements">
                   {list.map((item) => (
                     <li key={item} style={{ paddingRight: "20px" }}>
-                      <p
+                      <span
                         style={{
-                          fontSize: "calc((0.8 - 1) * 1.2vh + 1rem)",
+                          fontSize: "calc((0.9 - 1) * 1.2vh + 1rem)",
                           margin: 0,
+                          fontWeight: "bold",
+                          fontFamily: "Playfair Display",
                         }}
                       >
                         {item}
-                      </p>
+                      </span>
                     </li>
                   ))}
                 </ul>

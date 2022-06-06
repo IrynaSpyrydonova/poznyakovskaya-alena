@@ -1,11 +1,12 @@
 import Image from "next/image";
+import React, { useState } from 'react';
 
 export const Header = () => {
   return (
     <div
       style={{
         marginBottom: "30px",
-        height: "90vh",
+        height: "80vh",
         position: "relative",
         paddingRight: "3vw",
         paddingLeft: "3vw",
@@ -16,7 +17,7 @@ export const Header = () => {
         alt={"Alena's portret"}
         layout="fill"
         objectFit="cover"
-        objectPosition="85%"
+        objectPosition="88%"
         priority={true}
         placeholder="blur"
 
@@ -35,15 +36,15 @@ export const Header = () => {
       >
         <h1
           style={{
-            lineHeight: "1.308",
+            lineHeight: "1.1",
             fontSize: "calc((3.4 - 1) * 1.2vw + 1rem)",
             fontWeight: 400,
           }}
         >
-          Перемены в Жизни Начинаются с Тебя
+          Ты можешь больше, чем ты думаешь! <br/> И я помогу тебе в этом прямо сейчас
         </h1>
         <p style={{fontWeight:"bold"}}>
-          Терапия для женщин, которые чувствуют себя непонятыми и несостоявшимися в своей жизни.{" "}
+          Терапия для тех, кто чувствует себя непонятыми и несостоявшимися в своей жизни.{" "}
         </p>
         <button
           className="btn"

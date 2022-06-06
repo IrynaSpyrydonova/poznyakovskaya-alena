@@ -1,6 +1,20 @@
 import Image from "next/image";
 
 const footerLinks = [
+   {
+    link: "https://www.instagram.com/alena.poznyakovskaya/",
+    image: "/icon-instagram.svg",
+    alt: "Instagram icon",
+    width: 17,
+    height: 17,
+  },
+  {
+    link: "https://t.me/+UKNWJdXzE1FlMDYy",
+    image: "/icon-telegram.svg",
+    alt: "Telegram icon",
+    width: 17,
+    height: 17,
+  },
   {
     link: "https://www.facebook.com/alena.poznyakovskya/",
     image: "/icon-facebook.svg",
@@ -8,13 +22,13 @@ const footerLinks = [
     width: 10,
     height: 16,
   },
-  {
-    link: "",
-    image: "/icon-linkedin.svg",
-    alt: "LinkedIn icon",
-    width: 17,
-    height: 17,
-  },
+  // {
+  //   link: "",
+  //   image: "/icon-linkedin.svg",
+  //   alt: "LinkedIn icon",
+  //   width: 17,
+  //   height: 17,
+  // },
   {
     link: "https://youtube.com/c/PoznyakovskayaAlena",
     image: "/icon-youtube.svg",
@@ -22,13 +36,7 @@ const footerLinks = [
     width: 17,
     height: 17,
   },
-  {
-    link: "https://www.instagram.com/alena.poznyakovskaya/",
-    image: "/icon-instagram.svg",
-    alt: "Instagram icon",
-    width: 17,
-    height: 17,
-  },
+ 
 ];
 
 export const Footer = () => {

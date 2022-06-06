@@ -15,14 +15,12 @@ export const AboutMe = () => {
           />
         </div>
         <div className="myApproach-content">
-          <h5> MY APPROACH</h5>
+          <h5 style={{textTransform:'uppercase'}}> Привет, Я АЛЕНА ПОЗНЯКОВСКАЯ</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            non pulvinar lectus. Suspendisse id diam velit. In eleifend dui et
-            sapien dignissim pretium. Proin porttitor elementum tellus, sed
-            pharetra ipsum sagittis in. Cras non mollis lacus, vel porttitor
-            nunc. Nunc cursus ligula nulla, vitae blandit ex sagittis in.
+            Уже на протяжении 8 лет я практикующий психолог, нейропсихолог, HЛП и Karmalogic тренер, мотивационный спикер и сертифицированный диетолог.  
           </p>
+          <p>Я также являюсь владелицей танцевальной школы «Fiesta». </p>
+          <p>Замужем за прекрасным человеком, вместе воспитываем дочь Аврору. </p>
         </div>
 
         <div className="myApproach-img-2">

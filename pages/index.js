@@ -14,11 +14,11 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Alena Poznyakovskaya | Motivational Trainer of Rational Thinking
+          АЛЕНА ПОЗНЯКОВСКАЯ | практикующий психолог, нейропсихолог, HЛП и Karmalogic тренер, мотивационный спикер и сертифицированный диетолог. 
         </title>
         <meta
           name="description"
-          content="An extraordinary life starts with self care. Discover three simple actions you can take right now to positively impact your body, mind and life."
+          content="Терапия для тех, кто чувствует себя непонятыми и несостоявшимися в своей жизни. Проработка таких тем, как личностный рост, улучшение материальных благ, открытие женственности/сексуальности,освобождение от детских психологических травм и др."
         />
         <link rel="canonical" href="https://alena-poznyakovskaya.vercel.app/" />
         <link rel="icon" href="/favicon.ico" />

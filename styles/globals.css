@@ -98,6 +98,7 @@ p {
   max-width: 85%;
   justify-content: space-between;
   margin: 0 auto;
+  gap: 60px;
 }
 
 .mainSection-image {
@@ -132,8 +133,26 @@ p {
 }
 
 .mainSection-content {
-  padding-top: 3em;
   max-width: 48%;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin-right:40px;
+}
+
+.services-list{
+  list-style: none;
+}
+
+.services-list li p{
+  display: inline;
+  margin-left:15px;
+}
+
+.services-list li::marker {
+  content: '✓';
+  color:#ad7a62;
 }
 
 blockquote {
@@ -269,9 +288,43 @@ blockquote:before {
   }
 }
 
+@media screen and (max-width: 1326px) {
+
+  .mainSection-content-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .mainSection-content {
+    max-width: 100%;
+    padding-top: 3em;
+    margin-right:0;
+  }
+
+  .mainSection-content h4{
+   text-align: center;
+  }
+
+  .mainSection-content ul{
+    width: 100%;
+    padding-left: 20px;
+  }
+
+}
+
 @media screen and (max-width: 900px) {
   .mainSection-content {
     max-width: 100%;
+    padding-top: 3em;
+    margin-right:0;
+  }
+
+  .mainSection-content h4{
+   text-align: center;
+  }
+
+  .mainSection-content ul{
+    width: 100%;
+    padding-left: 20px;
   }
 
   .achievements {
