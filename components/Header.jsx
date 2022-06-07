@@ -49,9 +49,9 @@ export const Header = () => {
         <button
           className="btn"
           style={{
-            backgroundColor: "#f2e2dc",
+            backgroundColor: "#D3B7AB",
             color: "black",
-            border: "1px solid #ead5cd",
+            border: "1px solid #D3B7AB",
             maxWidth:"300px"
           }}
           onClick={() => {
