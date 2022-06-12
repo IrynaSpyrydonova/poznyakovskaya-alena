@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export const Header = () => {
   return (
@@ -20,7 +20,6 @@ export const Header = () => {
         objectPosition="88%"
         priority={true}
         placeholder="blur"
-
       />
       <div
         style={{
@@ -41,18 +40,19 @@ export const Header = () => {
             fontWeight: 400,
           }}
         >
-          Ты можешь больше, чем ты думаешь! <br/> И я помогу тебе в этом прямо сейчас
+          Ты можешь больше, чем ты думаешь!
         </h1>
-        <p style={{fontWeight:"bold"}}>
-          Терапия для тех, кто чувствует себя непонятыми и несостоявшимися в своей жизни.{" "}
-        </p>
+        <h3 style={{ fontWeight: "bold" }}>
+          Я помогу тебе обрести в себе опору. Выведу в стабильное состояние. Я
+          та, которая способствует в обретении уверенности и любови к себе!
+        </h3>
         <button
           className="btn"
           style={{
             backgroundColor: "#D3B7AB",
             color: "black",
             border: "1px solid #D3B7AB",
-            maxWidth:"300px"
+            maxWidth: "300px",
           }}
           onClick={() => {
             return (location.href =
